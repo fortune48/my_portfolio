@@ -1,0 +1,189 @@
+#div_with_image {
+  height: 25em;
+  width: 100%;
+}
+
+#my_picture {
+  width: 20%;
+  height: 18rem;
+  border: 20px;
+  border-radius: 50%;  
+  background-image: url(fortune1.jpg);
+  background-size: cover;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  
+}
+
+#about_me {
+  color: white;
+  font-size: 2.5rem;
+  width: 40%;
+  margin-left: 10rem;
+  margin-top: 4rem;
+  text-align: justify;
+}
+
+#lets_talk {
+  background-color: brown;
+  text-align: center;
+  width: 7em;
+}
+
+#about_and_skills {
+  display: flex;
+  padding-top: 5rem;
+  gap: 5rem;
+  text-align: center;
+}
+
+#about {
+  width: 45%;
+  padding-left: 6rem;
+}
+
+#skills {
+  width: 45%;
+}
+
+#readme {
+  height: 15rem;
+  width: 25rem;
+  color: white;
+  background-color: brown;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  padding: 3rem 2rem 3rem 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.readmore {
+  padding-top: 1.2rem;
+}
+
+#skills_list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  margin-top: 2em;
+}
+
+#skills_list > div {
+  margin: 1.5rem;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+
+.apps {
+  align-content: center;
+  justify-content: center;
+}
+
+.booking_app_image {
+  width: 70%;
+  height: 200px;
+  background-color: brown;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 25px;
+}
+
+.frame_works {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+
+.frame_work {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 100px;
+  margin-top: 5px;
+}
+
+.app_description {
+  width: 60%;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  margin: auto;
+  margin-top: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.live_or_source {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  justify-content: center;
+}
+
+.live_source {
+  color: black;
+  background-color: rgb(240, 136, 153);
+  padding: 10px 20px;
+  width: 30%;
+  margin: 5px;
+}
+
+#contact_and_links {
+  display:flex;
+  justify-content: center;
+  gap: 5rem;
+  text-align: center;
+  margin: 3rem 6rem;
+}
+
+.contacts {
+  width: 48%;
+}
+
+.contact {
+  width: 85%;
+  background-color: rgb(134, 13, 13);
+  padding: 2rem;
+  margin: auto;
+  margin-top: 3rem;
+  justify-content: center;
+  color: white;
+  font-size: 1.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links {
+  width: 48%;
+}
+
+.account_links {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 4rem;
+  margin: auto;
+  padding: 3rem;
+  justify-content: center;
+}
+
+#email {
+  font-size: smaller;
+  border-style: none none solid none;
+}
+
+.footer {
+  background-color: blue;
+  height: 10rem;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
