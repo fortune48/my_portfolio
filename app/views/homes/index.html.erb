@@ -1,145 +1,40 @@
-<div class="d-flex bg-primary" id="div_with_image">
-  <div id="my_picture"></div>
-  <div id="about_me">
-    <p>Hi, I'm Fortune Ukwuoma, and I am a full-stack web developer</p>
-    <div id="lets_talk">LET'S TALK</div>
-  </div>
-</div>
-<div class="text-primary" id="about_and_skills">
-  <div id="about">
-    <h2>About</h2>
-    <div id="readme">
-      <div>I'm a web developer with great passion for creating beautiful websites, using ruby on rails.</div>
-      <h3 class="readmore">Read More</h3>
-      <hr />
+
+  <div id="div_with_image">
+    <div id="my_picture"></div>
+    <div id="about_me">
+      <div><p>Hi, I'm Fortune Ukwuoma, and I am a full-stack web developer</p></div>
+      <div id="lets_talk">LET'S TALK</div>
     </div>
   </div>
-  <div id="skills">
-    <h2>Skills</h2>
-    <div id="skills_list">
-      <div>
-        <div>picture</div>
-        <div>HTML</div>
-      </div>
-      <div>
-        <div>image</div>
-        <div>CSS</div>
-      </div>
-      <div>
-        <div>image</div>
-        <div>BOOTSTRAP</div>
-      </div>
-      <div>
-        <div>image</div>
-        <div>JAVASCRIPT</div>
-      </div>
-      <div>
-        <div>image</div>
-        <div>REACT.JS</div>
-      </div>
-      <div>
-        <div>image</div>
-        <div>RUBY ON RAILS</div>
-      </div>
-    </div>
+
+  <svg class="wave-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="rgb(2, 97, 175)" fill-opacity="1" d="M0,256L80,224C160,192,320,128,480,128C640,128,800,192,960,208C1120,224,1280,192,1360,176L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+    </path>
+  </svg>
+
+  <%= render "about_and_skills" %>
+
+  <svg class="wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="rgb(2, 97, 175)" fill-opacity="1" d="M0,192L80,213.3C160,235,320,277,480,266.7C640,256,800,192,960,181.3C1120,171,1280,213,1360,234.7L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+    </path>
+  </svg>
+
+  <%= render "homes/portfolio" %>
+
+  <svg class="wave-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="rgb(2, 97, 175)" fill-opacity="1" d="M0,256L80,224C160,192,320,128,480,128C640,128,800,192,960,208C1120,224,1280,192,1360,176L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+    </path>
+  </svg>
+
+
+  <%= render "homes/contact_and_links" %>
+
+  <svg class="wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="rgb(2, 97, 175)" fill-opacity="1" d="M0,192L80,213.3C160,235,320,277,480,266.7C640,256,800,192,960,181.3C1120,171,1280,213,1360,234.7L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+    </path>
+  </svg>
+
+  <div class="footer">
+    <div><p>Made with <i class="fa-solid fa-heart text-danger"></i> and <i class="fa-solid fa-mug-saucer text-danger"></i> by Ukwuoma Fortunatus</p></div>
+    <div><p>copyright <i class="fa-regular fa-copyright fa-sm"></i> 2022</p></div>
   </div>
-</div>
-<div class="container-fluid p-5 bg-primary bg-opacity-75">
-  <h2 class="text-white text-center">PORTFOLIO</h2>
-  <div class="text-white text-center" id="portfolio">
-    <div class="apps">
-      <div><h2>Booking-App</h2></div>
-      <div class="booking_app_image"></div>
-      <div class="frame_works">
-        <div class="frame_work">HTML5</div>
-        <div class="frame_work">CSS</div>
-        <div class="frame_work">BOOTSTRAP</div>
-        <div class="frame_work">RUBY ON RAILS</div>
-      </div>
-      <div class="app_description"><P>An advanced to-do list application with a number of extra features, including user customisation, statistics, and a points system.</P></div>
-      <div class="live_or_source">
-        <%= link_to "live", "https://aqueous-forest-91327.herokuapp.com", target: "_blank", class: "live_source" %>
-        <div class="live_source">SOURCE</div>
-      </div>
-    </div>
-    <div class="apps">
-      <div><h2>Comrades-App</h2></div>
-      <div class="comrades_app_image"></div>
-      <div class="frame_works">
-        <div class="frame_work">HTML5</div>
-        <div class="frame_work">CSS</div>
-        <div class="frame_work">BOOTSTRAP</div>
-        <div class="frame_work">RUBY ON RAILS</div>
-      </div>
-      <div class="app_description"><P>An advanced to-do list application with a number of extra features, including user customisation, statistics, and a points system.</P></div>
-      <div class="live_or_source">
-        <%= link_to "LIVE", "https://comradesapp.herokuapp.com", target: "_blank", class: "live_source" %>
-        <div class="live_source">SOURCE</div>
-      </div>
-    </div>
-    <div class="apps">
-      <div><h2>Blog-App</h2></div>
-      <div class="blog_app_image"></div>
-      <div class="frame_works">
-        <div class="frame_work">HTML5</div>
-        <div class="frame_work">CSS</div>
-        <div class="frame_work">BOOTSTRAP</div>
-        <div class="frame_work">RUBY ON RAILS</div>
-      </div>
-      <div class="app_description"><P>An advanced to-do list application with a number of extra features, including user customisation, statistics, and a points system.</P></div>
-      <div class="live_or_source">
-        <%= link_to "LIVE", "https://fortuneblog.herokuapp.com/articles/3", target: "_blank", class: "live_source" %>
-        <div class="live_source">SOURCE</div>
-      </div>
-    </div>
-    <div class="apps">
-      <div><h2>Portfolio</h2></div>
-      <div class="my_portfolio_image"></div>
-      <div class="frame_works">
-        <div class="frame_work">HTML5</div>
-        <div class="frame_work">CSS</div>
-        <div class="frame_work">BOOTSTRAP</div>
-        <div class="frame_work">RUBY ON RAILS</div>
-      </div>
-      <div class="app_description"><P>An advanced to-do list application with a number of extra features, including user customisation, statistics, and a points system.</P></div>
-      <div class="live_or_source">
-        <div class="live_source">LIVE</div>
-        <div class="live_source">SOURCE</div>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="contact_and_links">
-  <div class="contacts">
-    <div><h2>CONTACT</h2></div>
-    <div class="contact">
-      <p>Feel free to contact me. I'd be delighted to hear from you.</p>
-      <p id="email">ukwuomafortune01@gmail.com</p>  
-    </div>
-  </div>
-  <div class="links">
-    <div><h2>LINKS</h2></div>
-    <div class="account_links">
-      <div>
-        <div>logo</div>
-        <div>GitHub</div>
-      </div>
-      <div>
-        <div>logo</div>
-        <div>Twitter</div>
-      </div>
-      <div>
-        <div>logo</div>
-        <div>LinkedIn</div>
-      </div>
-      <div>
-        <div>logo</div>
-        <div>Blog</div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="footer">
-  <div><p>Made with love and cofee by Ukwuoma Fortunatus</p></div>
-  <div><p>copyright c 2022</p></div>
-</div>

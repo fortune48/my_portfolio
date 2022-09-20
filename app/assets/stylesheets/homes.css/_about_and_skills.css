@@ -1,0 +1,187 @@
+
+#about_and_skills {
+  display: flex;
+  padding-top: 5rem;
+  gap: 5rem;
+  text-align: center;
+}
+
+#about {
+  width: 45%;
+  padding-left: 6rem;
+}
+
+#skills {
+  width: 45%;
+}
+
+.ruby_logo {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(ruby_logo.jpeg);
+  background-size: cover;
+  margin: auto;
+}
+
+.rails_logo {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(rails_logo.png);
+  background-size: cover;
+  margin: auto;
+}
+
+#readme {
+  height: 15rem;
+  width: 25rem;
+  color: white;
+  background-color: brown;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  padding: 3rem 2rem 3rem 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.readmore {
+  padding-top: 1.2rem;
+}
+
+#skills_list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  margin-top: 2em;
+}
+
+#skills_list > div {
+  margin: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  
+  #about_and_skills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem;
+    gap: 5rem;
+    text-align: center;
+  }
+
+  #about {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #skills {
+    width: 100%;
+  }
+
+  .ruby_logo {
+    width: 3rem;
+    height: 4rem;
+    background-image: url(ruby_logo.jpeg);
+    background-size: cover;
+    margin: auto;
+  }
+
+  .rails_logo {
+    width: 3rem;
+    height: 4rem;
+    background-image: url(rails_logo.png);
+    background-size: cover;
+    margin: auto;
+  }
+
+  #readme {
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: brown;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .readmore {
+    padding-top: 1.5rem;
+  }
+
+  #skills_list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 1rem;
+  }
+
+  #skills_list > div {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  
+  #about_and_skills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  #about {
+    width: 100%;
+    padding-left: 0rem;
+  }
+
+  #skills {
+    width: 100%;
+  }
+
+  .ruby_logo {
+    width: 3rem;
+    height: 4rem;
+    background-image: url(ruby_logo.jpeg);
+    background-size: cover;
+    margin: auto;
+  }
+
+  .rails_logo {
+    width: 3rem;
+    height: 4rem;
+    background-image: url(rails_logo.png);
+    background-size: cover;
+    margin: auto;
+  }
+
+  #readme {
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: brown;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    padding: 0rem 0rem 0rem 0rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .readmore {
+    padding-top: 0.5rem;
+  }
+
+  #skills_list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 1rem;
+  }
+
+  #skills_list > div {
+    margin: 1rem;
+  }
+}
