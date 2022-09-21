@@ -186,7 +186,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
 
   #contact_and_links {
     display:flex;
@@ -204,7 +204,7 @@
   .contact {
     width: 100%;
     background-color: rgb(134, 13, 13);
-    padding: 0rem;
+    padding: 1.5rem;
     margin: auto;
     margin-top: 1rem;
     justify-content: center;

@@ -343,7 +343,7 @@
 
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     
   #portfolio {
     background-color: rgb(2, 97, 175);
@@ -362,7 +362,7 @@
   }
 
   .booking_app_image {
-    width: 100%;
+    width: 60%;
     height: 150px;
     background-color: brown;
     background-image: url(booking_app.png);
@@ -373,7 +373,7 @@
   }
 
   .comrades_app_image {
-    width: 100%;
+    width: 60%;
     height: 150px;
     background-color: brown;
     background-image: url(comrade_app.png);
@@ -384,7 +384,7 @@
   }
 
   .blog_app_image {
-    width: 100%;
+    width: 60%;
     height: 150px;
     background-color: brown;
     background-image: url(blog_app.png);
@@ -395,7 +395,7 @@
   }
 
   .my_portfolio_image {
-    width: 100%;
+    width: 60%;
     height: 150px;
     background-color: brown;
     background-image: url(my_portfolio.png);
@@ -417,15 +417,15 @@
   .frame_work {
     background-color: white;
     color: black;
-    padding: 2px 2px;
+    padding: 0.2rem 0.2rem;
     border-radius: 50px;
     margin-top: 1px;
     width: auto;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   .app_description {
-    width: 60%;
+    width: 50%;
     font-weight: lighter;
     font-size: 1rem;
     margin: auto;
@@ -443,7 +443,7 @@
   .live_source {
     background-color: rgb(240, 136, 153);
     padding: 5px 5px;
-    width: 45%;
+    width: 20%;
     margin: 5px;
     border-radius: 5px;
   }
@@ -452,7 +452,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
     color: black;
     gap: 0.5rem;
