@@ -60,6 +60,68 @@
   color: rgb(58, 25, 25);
 }
 
+@media screen and (max-width: 800px) {
+
+  #contact_and_links {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10rem;
+    text-align: center;
+  }
+
+  .contacts {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+    background-color: rgb(134, 13, 13);
+    padding: 3rem;
+    margin: auto;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+  }
+
+  .links {
+    width: 100%;
+  }
+
+  .account_links {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 6rem;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .account_links > div > a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .account_links > div > a:hover {
+    color: aqua;
+  }
+
+  #email {
+    font-size: 2rem;
+    border-style: none none solid none;
+  }
+
+  #email > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #email > a:hover {
+    color: rgb(58, 25, 25);
+  }
+}
+
 @media screen and (max-width: 600px) {
 
   #contact_and_links {

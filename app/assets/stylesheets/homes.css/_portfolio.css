@@ -110,6 +110,122 @@
   gap: 0.5rem;
 }
 
+@media screen and (max-width: 800px) {
+    
+  #portfolio {
+    background-color: rgb(2, 97, 175);
+  }
+
+  #portfolios {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 2rem;
+    gap: 5rem;
+  }
+
+  .apps {
+    align-content: center;
+    justify-content: center;
+  }
+
+  .booking_app_image {
+    width: 60%;
+    height: 250px;
+    background-color: brown;
+    background-image: url(booking_app.png);
+    background-size: cover;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 25px;
+  }
+
+  .comrades_app_image {
+    width: 60%;
+    height: 250px;
+    background-color: brown;
+    background-image: url(comrade_app.png);
+    background-size: cover;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 25px;
+  }
+
+  .blog_app_image {
+    width: 60%;
+    height: 250px;
+    background-color: brown;
+    background-image: url(blog_app.png);
+    background-size: cover;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 25px;
+  }
+
+  .my_portfolio_image {
+    width: 60%;
+    height: 250px;
+    background-color: brown;
+    background-image: url(my_portfolio.png);
+    background-size: cover;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 25px;
+  }
+
+  .frame_works {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    gap: 0.5rem;
+  }
+
+  .frame_work {
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-top: 1px;
+    width: auto;
+    font-size: 1rem;
+  }
+
+  .app_description {
+    width: 50%;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .live_or_source {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .live_source {
+    background-color: rgb(240, 136, 153);
+    padding: 5px 5px;
+    width: 20%;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .live_source > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    gap: 0.5rem;
+  }
+
+}
+
 @media screen and (max-width: 600px) {
     
   #portfolio {
