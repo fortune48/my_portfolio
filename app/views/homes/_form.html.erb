@@ -11,17 +11,23 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
+  <div class="form-group">
+    <% form.label :name, style: "display: block" %>
+    <%= form.text_field :name, class: 'form-control', placeholder: 'Your name (Optional)' %>
   </div>
+  <br />
+
+  <div class="form-group">
+    <% form.label :body, style: "display: block" %>
+    <%= form.text_area :body, class: 'form-control', placeholder: 'Comment' %>
+  </div>
+  <br />
 
   <div>
-    <%= form.label :body, style: "display: block" %>
-    <%= form.text_area :body %>
+  <%= button_tag(type: 'submit', class: "btn btn-primary") do %>
+    submit
+   <% end %>
   </div>
 
-  <div>
-    <%= form.submit %>
-  </div>
+  
 <% end %>

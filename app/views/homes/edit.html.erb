@@ -1,10 +1,15 @@
-<h1>Editing home</h1>
 
-<%= render "form", home: @home %>
+<div class="card">
+  <div class="card-body">
+    <h1>Edit Comment</h1>
 
-<br>
-
-<div>
-  <%= link_to "Show this home", @home %> |
-  <%= link_to "Back to homes", homes_path %>
+    <%= render "form", home: @home %>
+    
+    <br>
+    
+    <div>
+      <%= link_to "Back", @home, class: 'btn btn-secondary' %> |
+      <%= link_to "Back to home page", homes_path, class: 'btn btn-secondary' %>
+    </div>
+  </div>
 </div>

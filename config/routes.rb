@@ -7,4 +7,5 @@ Rails.application.routes.draw do
    root "homes#index"
    get "pages/portfolio"
    get "pages/contact"
+   get "pages/index"
 end
