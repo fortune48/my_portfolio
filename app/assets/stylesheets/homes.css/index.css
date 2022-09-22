@@ -29,7 +29,16 @@
 #lets_talk {
   background-color: brown;
   text-align: center;
-  width: 7em;
+  width: 14rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+#lets_talk:hover {
+  color: black !important;
 }
 
 .footer {
@@ -76,9 +85,10 @@
   }
 
   #lets_talk {
-    background-color: brown;
-    text-align: center;
-    width: 250px;
+    width: 25rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-bottom: 15px;
   }
 
   .footer {
@@ -126,10 +136,9 @@
   }
 
   #lets_talk {
-    background-color: brown;
-    text-align: center;
-    width: 200px;
-    margin-top: 2rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
   }
 
   .footer {
@@ -179,9 +188,9 @@
   }
 
   #lets_talk {
-    background-color: brown;
-    text-align: center;
-    width: 150px;
+    width: 15rem;
+    font-size: 0.9rem;
+    padding: 0.3rem;
   }
 
   .footer {

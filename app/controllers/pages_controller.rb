@@ -1,4 +1,9 @@
 class PagesController < ApplicationController
+
+  def index
+    @homes = Home.all
+  end
+
   def about
   end
 

@@ -1,9 +1,15 @@
-<h1>New home</h1>
 
-<%= render "form", home: @home %>
+<br />
+<div class="card">
+  <div class="card-body">
+    <h2>Drop a comment</h2>
 
-<br>
-
-<div>
-  <%= link_to "Back to homes", homes_path %>
+    <%= render "form", home: @home %>
+    
+    <br>
+    
+    <div>
+      <%= link_to "Back", homes_path, class: 'btn btn-secondary' %>
+    </div>
+  </div>
 </div>

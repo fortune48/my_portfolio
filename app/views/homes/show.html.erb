@@ -3,8 +3,8 @@
 <%= render @home %>
 
 <div>
-  <%= link_to "Edit this home", edit_home_path(@home) %> |
-  <%= link_to "Back to homes", homes_path %>
+  <%= link_to "Edit", edit_home_path(@home), class: 'btn btn-primary' %> |
+  <%= link_to "Back to home page", homes_path, class: 'btn btn-secondary' %> <br /> <br />
 
-  <%= button_to "Destroy this home", @home, method: :delete %>
+  <%= button_to "Delete Comment?", @home, method: :delete, class: 'btn btn-danger' %>
 </div>
